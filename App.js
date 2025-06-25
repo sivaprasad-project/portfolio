@@ -44,32 +44,46 @@ function App() {
 
         <section className="skills-icons">
           <h2>Skills</h2>
-          <p>My skills range from performance marketing, SEO, social media, and creative design tools.</p>
+          <h3>My skills range from performance marketing, SEO, social media, and creative design tools.</h3>
           <div className="skills-grid">
-            <div>Facebook Ads</div>
-            <div>Search Engine Marketing</div>
+            <div>Search Engine Optimization</div>
             <div>Google Analytics</div>
             <div>Social Media Marketing</div>
-            <div>Search Engine Optimization</div>
             <div>Content Marketing</div>
-            <div>Illustrator</div>
-            <div>InDesign</div>
-            <div>Photoshop</div>
             <div>Google Data Studio</div>
+            <div>SEMrush,Ahrefs</div>
+            <div>GSC,GTM</div>
+           <div>Schema markups</div>
+             <div>Meta Ads</div>
+            <div>Goolge Ads</div>
+            <div>Photoshop</div>
             <div>Canva</div>
           </div>
         </section>
 
         <section className="experience-section">
+          
           <h2>Professional Experience</h2>
           <div className="timeline">
             <div className="timeline-item">
               <h3>Beleaf Technologies – Digital Marketing Executive</h3>
-              <span>June 2024 – Present</span>
+              <h4><span>June 2024 – Present</span></h4>
+              
               <ul>
-                <li>Conducted SEO audits and fixed technical SEO issues on Shopify sites.</li>
-                <li>Improved SERP rankings using schema markups and backlink outreach.</li>
-                <li>Utilized GA4, GSC, Ahrefs for SEO tracking and reporting.</li>
+               <ul>
+  <li>Performed comprehensive SEO audits for various websites, identifying and fixing critical technical SEO issues such as crawl errors, broken links, sitemap optimization, and improving page speed and mobile usability.</li> <br></br>
+  <li>Enhanced website search visibility by implementing schema markup, structured data, and rich snippets, leading to better CTR on SERPs.</li><br></br>
+  <li>Managed end-to-end SEO strategies including keyword research, on-page optimization, and off-page link-building campaigns through effective backlink outreach.</li><br></br>
+  <li>Regularly monitored website performance and SEO health using GA4 (Google Analytics), Google Search Console (GSC), and Ahrefs, generating insightful reports to guide strategy improvements.</li><br></br>
+  <li>Ran Google Ads (Search & Display) and Meta Ads (Facebook & Instagram) campaigns, optimizing them for better conversions and lower CPC, directly impacting lead generation.</li><br></br>
+  <li>Collaborated with the content team to develop SEO-optimized blogs, landing pages, and product descriptions tailored for higher engagement and ranking.</li><br></br>
+  <li>Increased organic traffic and domain authority by executing targeted link-building strategies and improving technical SEO factors.</li><br></br>
+  <li>Conducted competitor analysis and market research to adapt strategies for outperforming competitors in search rankings.</li><br></br>
+  <li>Tracked user behavior and website heatmaps using Microsoft Clarity to refine UX and improve conversion rates.</li><br></br>
+  <li>Managed and executed email marketing campaigns using Mailchimp, achieving improved open rates and click-through rates.</li><br></br>
+  <li>Played a key role in improving overall brand presence through consistent efforts across SEO, social media marketing, and paid campaigns.</li><br></br>
+</ul>
+
               </ul>
             </div>
           </div>
@@ -80,26 +94,64 @@ function App() {
           <div className="edu-card">
             <img src={uniIcon} alt="University Logo" />
             <div>
-              <h3>B.Sc. in Architecture, ITB (2011–2015)</h3>
-              <p>Developed empathy to design spaces that solve problems. Led as Head of Design in student events.</p>
+              <h3>B.E. in Electronics and Communication Engineering (2019–2023)</h3>
+              <p>PSNA College of Engineering and Technology – 80.1%</p>
             </div>
           </div>
           <div className="edu-card">
             <img src={revoIcon} alt="Revo Logo" />
             <div>
-              <h3>Full Stack Digital Marketing, Revo (2021)</h3>
-              <p>Completed 100+ hours & 20+ assignments including Facebook Ads, SEO, Google Ads. Top 1 in assignments.</p>
+              <h3>HSC (Higher Secondary Certificate)(2018-2019)</h3>
+              <p>SPM Oxford Matriculation Higher Secondary School – 60%</p>
             </div>
           </div>
         </section>
 
         <div className="project-card">
-          <h3>Naturewash – SEO Article Optimization</h3>
+          <h3>SEO Work</h3>
           <ul className="project-list">
-            <li>Performed keyword research and competitive analysis.</li>
-            <li>Used schema markups to improve visibility (FAQ, Product).</li>
-            <li>Achieved Top 3 SERP position for key terms like “essential oils for laundry”.</li>
-          </ul>
+            
+  <li>Performed keyword research and competitive analysis.</li>
+  <li>Implemented schema markups (FAQ, Product) to improve search visibility.</li>
+  <li>Achieved Top 3 SERP ranking for key terms like “essential oils for laundry”.</li>
+
+         
+          <h5>On-Page SEO Checking</h5>
+<ul>
+  <li>Check page titles, meta descriptions, and heading tags for proper SEO structure.</li>
+  <li>Optimize URL structure, image alt tags, and internal linking.</li>
+  <li>Ensure mobile responsiveness, page speed, and keyword placement in content.</li>
+</ul>
+
+<h5>Technical SEO Checking</h5>
+<ul>
+  <li>Verify sitemap.xml, robots.txt, and indexing status on Google Search Console.</li>
+  <li>Fix crawl errors like 404 pages, broken links, and redirect issues.</li>
+  <li>Check Core Web Vitals, HTTPS security, and structured data (schema markup).</li>
+</ul>
+
+<h5>Keyword Research</h5>
+<ul>
+  <li>Find primary, secondary, and long-tail keywords with good search volume.</li>
+  <li>Analyze competitor keywords to discover ranking opportunities.</li>
+  <li>Group keywords based on user intent — informational, navigational, or transactional.</li>
+</ul>
+
+<h5>Target Audience Analysis</h5>
+<ul>
+  <li>Identify audience demographics like location, age, and interests.</li>
+  <li>Understand audience search intent and behavior patterns.</li>
+  <li>Analyze competitors' audience engagement to refine targeting strategies.</li>
+</ul>
+
+<h5>Backlink Creation (Off-Page SEO)</h5>
+<ul>
+  <li>Build backlinks through guest posting, business listings, and directory submissions.</li>
+  <li>Engage in forum participation, blog commenting, and social bookmarking.</li>
+  <li>Track backlink quality using tools like Ahrefs to avoid spammy links.</li>
+</ul>
+ </ul>
+
           <button
             className="toggle-btn"
             onClick={() => {
